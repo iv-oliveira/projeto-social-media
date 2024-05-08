@@ -30,14 +30,15 @@ section > iframe {
     position: relative;
     top: 64px;
     left: 18px;
+    height: 371px;
+    width: 208px;
 }
 
 #social {
     text-align: right;
 }
 
-#social a img {
-    display: block;
+#social img {
     width: 50px;
     border-radius: 50%;
     margin: 10px;
@@ -45,7 +46,7 @@ section > iframe {
     box-sizing: border-box;
 }
 
-#social a img:hover {
+#social img:hover {
     border: 2px solid white;
     transform: translate(-2px, -2px);
     transition: transform 1s, border 0.5s;
